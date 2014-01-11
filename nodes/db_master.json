@@ -1,4 +1,4 @@
-{"run_list":["mysql::server", "mysql::client", "mysql_replication::master"],
+{"run_list":["mysql::server", "mysql::client", "mysql_replication::master", "mysql_replication::barracuda"],
  "mysql": {
    "bind_address":           "0.0.0.0",
    "server_root_password":   "password",
